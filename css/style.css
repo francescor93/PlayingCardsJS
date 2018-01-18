@@ -1,0 +1,90 @@
+body {
+    font-family: opensansemoji;
+    font-size: 14px;
+    background-color: #0F0604;
+}
+
+div > span {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+p {
+    height: 223px;
+    width: 265px;
+    font-size: 70px;
+    background-color: #FFFFFF;
+    border: 1px inset #F7FCF8;
+    line-height: 70px;
+    text-align: center;
+    overflow: auto;
+}
+
+#table {
+    display: flex;
+    flex-direction: column;
+    max-width: 863px;
+    width: 100%;
+    background-color: #194D1E;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#table > div > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+#top, #bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:862px) {
+    #middle {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#tablecards {
+    background-color: initial;
+    border: initial;
+    margin-top: 21px;
+}
+
+.card {
+    cursor: pointer;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#tablecards .card {
+    cursor: default;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#button > button {
+    border: 3px inset #A3A393;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #AB201B;
+    color: white;
+    font-weight: bold;
+}
